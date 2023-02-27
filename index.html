@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="icon" type="image/x-icon" href="./imagenes/icono.ico">
+    <link rel="stylesheet" href="./webfonts/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <h1>CURRICULUM VITAE</h1>
+    </header>
+      
+    <h2 id="Nombre">Neil Robinson</h2>
+
+    <p id="barra-colores-1"></p>
+ 
+    <div class="Datos">
+
+        <img src="./imagenes/foto.jpg" alt="Mi foto" id="mi-foto">
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Nombre y Apellido: Neil Robinson</li>
+        <li>Fecha de Nacimiento: 25-11-1981</li>
+        <li>Estado Civil: Casado</li>
+        <li>Nacionalidad: Argentino</li>
+        <li>Provincia: Formosa</li>
+        <li>Dirección: Mitre 531</li>
+    </ul>
+    <h2><i class="fa-solid fa-laptop-code"></i> Idiomas</h2>
+    
+    <div class="Idiomas-circulos">
+
+        <div class="circulo-espanol">
+            <div class="outer-1">
+                <div class="inner-1">
+                    <div id="number-1"><h3 id="idioma1">Español</h3>100%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-1">
+                        <stop offset="0%" stop-color="#F6F72D"/>
+                        <stop offset="100%" stop-color="#F72D6A"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-1" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="circulo-ingles">
+            <div class="outer-2">
+                <div class="inner-2">
+                    <div id="number-2"><h3 id="idioma1">Inglés</h3>60%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-2">
+                        <stop offset="0%" stop-color="#F72D6A"/>
+                        <stop offset="100%" stop-color="#BC2DF7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-2" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="circulo-chino">
+            <div class="outer-3">
+                <div class="inner-3">
+                    <div id="number-3"><h3 id="idioma1">Chino</h3>35%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-3">
+                        <stop offset="0%" stop-color="#3C2DF7"/>
+                        <stop offset="100%" stop-color="#2DD3F7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-3" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+    
+        </div>
+        
+    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2> 
+    <ul>
+        <li>Primaria completa</li>
+        <li>Secundaria completa</li>
+        <li>Terciario "Analista de Sistemas" completo</li>
+        <li>Curso de Armado de Redes</li>
+        <li>Curso de Reparación de PC</li>
+        <li>Curso de Frontend</li>
+    </ul>
+    
+    <h2><i class="fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+    <ol>
+        <li>
+            <h3>Maestro Especial de Computación</h3>
+            <h4>IMC 2008 - Continua</h4>
+            <ul>
+                <li>Maestro Especial de Computación</li>
+                <li>Instituto Monte Calvario</li>
+                <li>IMC</li>
+                <li>Primaria</li>
+                <li>1-6 grado</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Dueño y atención de un Cyber</h3>
+            <h4>Cyber Davinci 2001 - 2015</h4>
+            <ul>
+                <li>Atención al publico</li>
+                <li>Manejo de PC</li>
+                <li>Redes</li>
+                <li>Reparación de PC</li>
+                <li>Impresiones</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Profesor de computación</h3>
+            <h4>IMC 2007</h4>
+            <ul>
+                <li>Profesor de computación</li>
+                <li>Instituto Monte Calvario</li>
+                <li>IMC</li>
+                <li>Secundaria</li>
+                <li>2-9-8 año</li>
+            </ul>
+        </li>
+    </ol>
+
+<h2><i class="fa-solid fa-palette"></i> Habilidades Laborales</h2>
+    <ul>
+        <li>Organización</li>
+        <li>Pensamiento lógico</li>
+        <li>Trabajo en Equipo</li>
+        <li>Creatividad</li>
+    </ul>
+
+    <h2><i class="fa-solid fa-certificate"></i> Descargar Curriculum</h2>
+    <ul>
+        <li>Curriculum Vitae: 
+            <button onclick="window.open('./imagenes/curriculum.pdf')" 
+            id="Boton-descarga">Descargar</button>
+        </li>
+    </ul>    
+</div>
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+  
+    <button id="Contacto" onclick="MostrarContacto()">Datos de contacto</button>
+    <p id="celular"></p>
+
+    <script>
+         function MostrarContacto(){
+            document.getElementById("celular").innerHTML = "3704-555555 // Neil Robinson@gmail.com";
+         }
+    </script>
+
+</footer>
+
+</html>
